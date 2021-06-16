@@ -33,6 +33,7 @@
     <Content Include="auto_py_to_exe-2.9.0-py2.py3-none-any.whl" />
     <Content Include="hook-pyttsx3.spec" />
     <Content Include="integrador.spec" />
+    <Content Include="README.md" />
     <Content Include="requirements.txt" />
     <Content Include="requirements_old.txt" />
   </ItemGroup>
