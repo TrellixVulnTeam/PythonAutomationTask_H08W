@@ -41,7 +41,6 @@
     <Content Include="integrador.spec" />
     <Content Include="README.md" />
     <Content Include="requirements.txt" />
-    <Content Include="requirements_old.txt" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
