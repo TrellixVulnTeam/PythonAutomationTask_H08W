@@ -1,0 +1,72 @@
+""" ## ORIGEM para análise ##
+    -- Estou agora conectada com o Servidor de E-mails!--
+    -- Verificação de E-mails encerrada! --
+    -- Encerrou a conexão com a conta de E-mail! --
+    {'options': {'terms': [{'text': 'Integrados'}, {'text': 'pela'}, {'text': 'Saphira'}], 'modifiers': [], 'modelTypes': ['actions', 'cards', 'boards', 'organizations', 'members'], 'partial': False}, 'boards': [{'id': '602c21bba64e9e8105c36ed9', 'name': 'Integrados pela Saphira', 'idOrganization': '5f527804c374533690e46810'}], 'cards': [], 'organizations': [], 'members': []}
+    ID da Board Integrados pela Saphira = 602c21bba64e9e8105c36ed9
+    Quadro já existente id: 602c21bba64e9e8105c36ed9
+    [{'id': '60393ae154af2d7b1d08891e', 'name': 'Integrado em 26/02/2021 15:15', 'closed': False, 'pos': 16384, 'softLimit': None, 'idBoard': '602c21bba64e9e8105c36ed9', 'subscribed': False}]
+    ID da Lista Integrado em 26/02/2021 = 60393ae154af2d7b1d08891e
+    Lista de hoje já foi integrada
+    -- Estou agora conectada com o Servidor de E-mails!--
+    -- Verificação de E-mails encerrada! --
+    -- Encerrou a conexão com a conta de E-mail! --
+"""
+
+---------------------------------------------------------------------------------------------------------------
+
+-- (26/02/2021 )
+-- Estou agora conectada com o Servidor de E-mails!--
+-- Verificação de E-mails encerrada! --
+-- Encerrou a conexão com a conta de E-mail! --
+{'options': {'terms': [{'text': 'Integrados'}, {'text': 'pela'}, {'text': 'Saphira'}], 'modifiers': [], 'modelTypes': ['actions', 'cards', 'boards', 'organizations', 'members'], 'partial': False}, 'boards': [{'id': '602c21bba64e9e8105c36ed9', 'name': 'Integrados pela Saphira', 'idOrganization': '5f527804c374533690e46810'}], 'cards': [], 'organizations': [], 'members': []}
+ID da Board Integrados pela Saphira = 602c21bba64e9e8105c36ed9
+Quadro já existente id: 602c21bba64e9e8105c36ed9
+[{'id': '60393ae154af2d7b1d08891e', 'name': 'Integrado em 26/02/2021 15:15', 'closed': False, 'pos': 16384, 'softLimit': None, 'idBoard': '602c21bba64e9e8105c36ed9', 'subscribed': False}]
+ID da Lista Integrado em 26/02/2021 = 60393ae154af2d7b1d08891e
+Lista de hoje já foi integrada
+-- Estou agora conectada com o Servidor de E-mails!--
+-- Verificação de E-mails encerrada! --
+-- Encerrou a conexão com a conta de E-mail! --
+
+
+-> Parâmetros Conexão E-mail
+	--> Criar um teste de conexão
+
+-> Parâmetros Conexão Trello
+	--> Criar um teste de conexão
+
+
+** Pensar como configurar o Tempo que a Saphira será executada (verificação se tem e-mail)
+** Pensar como configurar os critérios para pesquisa de e-mails
+** Ver como configurar o que acontecerá após a leitura de e-mails (marcar como lido, excluir, excluir definitivo, mandar para uma outra pasta)
+
+===========================
+ Ideia para os parâmetros:
+===========================
+Criar uma tela WEB para configurar os parâmetros.
+Tecnologia a ser usada: Node.js e React
+Criar uma API que tratará dessas coisas.
+A API deverá ser lida pela Saphira.
+
+Através da API a Saphira saberá tudo o que deverá fazer:
+** Conexão **
+a) Qual a conta de e-mail e senha que utilizará;
+b) Qual a conta do Trello a ser usada
+	- quadro padrão para a Criar as listas
+	- padrão de Nome da lista(título) 
+	- padrão de Nome dos Cards(título)
+
+** Informações da Saphira **
+a) Qual a voz que será utilizada e se a Saphira irá falar;
+b) Quais mensagens que serão exibidas na tela;
+c) Mensagens de conexão ou encerramento	das mesmas serão mostradas?
+
+**************************************************
+            (01/03/2021 )
+Ajustes que deverão ser realizados:
+-----------------------------------
+Inclusão de Datas/horários:
+    -> Início e Fim das verificações
+    -> Qual a Data+Horário da próxima verificação
+**************************************************

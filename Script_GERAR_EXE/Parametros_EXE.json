@@ -1,0 +1,113 @@
+{
+ "version": "auto-py-to-exe-configuration_v1",
+ "pyinstallerOptions": [
+  {
+   "optionDest": "noconfirm",
+   "value": true
+  },
+  {
+   "optionDest": "filenames",
+   "value": "C:/Projetos.NET/PythonTesteScript/PythonApplicationTesteScript/integrador.py"
+  },
+  {
+   "optionDest": "onefile",
+   "value": false
+  },
+  {
+   "optionDest": "console",
+   "value": true
+  },
+  {
+   "optionDest": "ascii",
+   "value": false
+  },
+  {
+   "optionDest": "clean_build",
+   "value": false
+  },
+  {
+   "optionDest": "strip",
+   "value": false
+  },
+  {
+   "optionDest": "noupx",
+   "value": false
+  },
+  {
+   "optionDest": "uac_admin",
+   "value": false
+  },
+  {
+   "optionDest": "uac_uiaccess",
+   "value": false
+  },
+  {
+   "optionDest": "win_private_assemblies",
+   "value": false
+  },
+  {
+   "optionDest": "win_no_prefer_redirects",
+   "value": false
+  },
+  {
+   "optionDest": "bootloader_ignore_signals",
+   "value": false
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Python39/chromedriver.exe;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Python39/python.exe;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Python39/python3.dll;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Python39/python39.dll;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Python39/pythonw.exe;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Python39/vcruntime140.dll;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Python39/vcruntime140_1.dll;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Projetos.NET/PythonTesteScript/PythonApplicationTesteScript/data;data/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Projetos.NET/PythonTesteScript/PythonApplicationTesteScript/img;img/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Projetos.NET/PythonTesteScript/PythonApplicationTesteScript/docs;docs/"
+  },
+  {
+   "optionDest": "runtime_hooks",
+   "value": "C:/Projetos.NET/PythonTesteScript/PythonApplicationTesteScript/hook-pyttsx3.spec"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "pyttsx3.drivers"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "pyttsx3.drivers.sapi5"
+  }
+ ],
+ "nonPyinstallerOptions": {
+  "increaseRecursionLimit": true,
+  "manualArguments": ""
+ }
+}
