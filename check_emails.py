@@ -310,7 +310,10 @@ class Checktarefas:
                 nome_operacao = 'Realizei o Logout da conta de E-mail' + ' ' + str(hoje)
                 self.escrever_log(nome_operacao)
 
-            fala_1 = 'Verificação de E-mails encerrada.'
+            
+            data_atual = datetime.date.today()
+            hoje = data_atual.strftime('%d/%m/%Y')  # %H:%M
+            fala_1 = 'Verificação de E-mails encerrada em ' + hoje
             # fala_2 = 'Encerrei a conex�o com a conta de E-mail!'
             self.speak(fala_1, 1, 45)
             # time.sleep(2)

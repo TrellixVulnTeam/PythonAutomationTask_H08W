@@ -28,8 +28,14 @@
     <Compile Include="Geral.py" />
     <Compile Include="hook-pyttsx3.py" />
     <Compile Include="integrador.py" />
+    <Compile Include="Makefile">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".travis.yml">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="auto_py_to_exe-2.9.0-py2.py3-none-any.whl" />
     <Content Include="hook-pyttsx3.spec" />
     <Content Include="integrador.spec" />
