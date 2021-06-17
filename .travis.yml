@@ -1,14 +1,16 @@
 language: python
 python:
   - "3.6"      # current default Python on Travis CI
+  - "3.8"
+  - "3.8-dev"
   - "3.9"
   - "3.9-dev"  # 3.9 development branch
   - "nightly"  # nightly build
 # cache: pip
 # command to install dependencies
 install:
-  - pip install -r requirements.txt
-  - pip install --force-reinstall pywin32-301-cp39-cp39-win_amd64.whl
+    - pip install -r requirements.txt
+    - pip install pywin32==225
 # command to run tests
-script:
-  - pytest
+#script:
+#  - pytest
