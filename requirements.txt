@@ -41,7 +41,7 @@ setuptools==57.0.0
 six==1.15.0
 test-image-results==0.0.3
 trello==0.9.5
-urllib3==1.26.3
+urllib3==1.26.5
 whichcraft==0.6.1
 win10toast==0.9
 zope.event==4.5.0
