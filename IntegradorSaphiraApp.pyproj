@@ -39,6 +39,7 @@
     <Content Include="auto_py_to_exe-2.9.0-py2.py3-none-any.whl" />
     <Content Include="hook-pyttsx3.spec" />
     <Content Include="integrador.spec" />
+    <Content Include="pywin32-301-cp39-cp39-win_amd64.whl" />
     <Content Include="README.md" />
     <Content Include="requirements.txt" />
   </ItemGroup>

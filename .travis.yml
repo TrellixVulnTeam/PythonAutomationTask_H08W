@@ -8,6 +8,7 @@ python:
 # command to install dependencies
 install:
   - pip install -r requirements.txt
+  - pip install --force-reinstall pywin32-301-cp39-cp39-win_amd64.whl
 # command to run tests
 script:
   - pytest
